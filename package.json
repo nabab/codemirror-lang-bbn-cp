@@ -1,6 +1,5 @@
 {
   "name": "@bbn/codemirror-lang-bbn-cp",
-  "version": "0.1.31",
   "description": "bbn-cp template support for the CodeMirror code editor",
   "scripts": {
     "test": "cm-runtests",
