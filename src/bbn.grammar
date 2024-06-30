@@ -4,7 +4,7 @@
 
 @skip { space } {
   @top Attribute {
-    (VueAttributeName (":" Identifier)? ("." Identifier)* |
+    (BbnAttributeName (":" Identifier)? ("." Identifier)* |
       (":" | "@") Identifier ("." Identifier)*) (Is ScriptAttributeValue)? |
     AttributeName (Is AttributeValue)?
   }
@@ -60,9 +60,9 @@ Interpolation[isolate] {
 @tokens {
   AttributeName { (":" | "-" | @asciiLetter | @digit | "_" | $[\u00C0-\u{EFFFF}])+ }
 
-  VueAttributeName { ("bbn-" | "v-") @asciiLetter+ }
+  BbnAttributeName { ("bbn-" | "v-") @asciiLetter+ }
 
-  @precedence { VueAttributeName AttributeName }
+  @precedence { BbnAttributeName AttributeName }
 
   @precedence { ":" AttributeName }
 

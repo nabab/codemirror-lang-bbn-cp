@@ -4,7 +4,7 @@
   "description": "bbn-cp template support for the CodeMirror code editor",
   "scripts": {
     "test": "cm-runtests",
-    "prepare": "cm-buildhelper src/vue.ts"
+    "prepare": "cm-buildhelper src/bbn.ts"
   },
   "keywords": [
     "editor",

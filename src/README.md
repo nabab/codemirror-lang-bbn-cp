@@ -1,5 +1,10 @@
 <!-- NOTE: README.md is generated from src/README.md -->
 
+
+
+# This is a fork of lang-vue for CodeMirror 
+
+
 # @codemirror/lang-vue [![NPM version](https://img.shields.io/npm/v/@codemirror/lang-vue.svg)](https://www.npmjs.org/package/@codemirror/lang-vue)
 
 [ [**WEBSITE**](https://codemirror.net/) | [**ISSUES**](https://github.com/codemirror/dev/issues) | [**FORUM**](https://discuss.codemirror.net/c/next/) | [**CHANGELOG**](https://github.com/codemirror/lang-vue/blob/main/CHANGELOG.md) ]
