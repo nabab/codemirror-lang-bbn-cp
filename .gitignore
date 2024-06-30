@@ -6,3 +6,4 @@ package-lock.json
 /test/*.d.ts.map
 .tern-*
 /.history
+/.vscode
