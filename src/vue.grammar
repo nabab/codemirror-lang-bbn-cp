@@ -60,7 +60,7 @@ Interpolation[isolate] {
 @tokens {
   AttributeName { (":" | "-" | @asciiLetter | @digit | "_" | $[\u00C0-\u{EFFFF}])+ }
 
-  VueAttributeName { "v-" @asciiLetter+ }
+  VueAttributeName { ("bbn-" | "v-") @asciiLetter+ }
 
   @precedence { VueAttributeName AttributeName }
 
